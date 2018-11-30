@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TestWebinar</string>
+    <string name="title_activity_layouts">Title activity Layout</string>
+    <string name="title_activity_basic">Title activity basic</string>
+</resources>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/app_background"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Inurture Android"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/oneDelBlue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape">
+        <TextView
+            android:id="@+id/webinar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Webinar 2"
+            android:textColor="@color/black_shade"
+            android:textStyle="bold|italic"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/activity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Activity Flow"
+                android:background="@drawable/background"
+                android:textColor="@color/black_shade"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/internalintent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Internal intent"
+                android:background="@drawable/background"
+                android:textColor="@color/black_shade"
+                android:textAllCaps="false"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/externalintent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="External intent"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/test_r_file"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="External intent"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_shape">
+        <TextView
+            android:id="@+id/webinar3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Webinar 3"
+            android:textColor="@color/black_shade"
+            android:textStyle="bold|italic"
+            android:layout_margin="5dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+
+            <Button
+                android:id="@+id/linear_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linear Layout"
+                android:textAllCaps="false"
+                android:background="@drawable/background"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/relative_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Relative Layout"
+                android:textAllCaps="false"
+                android:background="@drawable/background"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/table_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Table Layout"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+
+            <Button
+                android:id="@+id/absolute_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Absolute Layout"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/frame_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Frame Layout"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/list_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="List View"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/imageswitcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Image Switcher"
+                android:textAllCaps="false"
+                android:background="@drawable/background"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/grid_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Grid View"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+            <Button
+                android:id="@+id/constraint_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background"
+                android:text="Constraint Layout"
+                android:textAllCaps="false"
+                android:textColor="@color/black_shade"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
